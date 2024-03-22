@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Other Eyes </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comic+Sans+MS&display=swap">
+    
+    <style>
+        .quote-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .quote {
+            background-color: #add8e6;
+            padding: 10px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+            cursor: pointer;
+            font-family: 'Comic Sans MS', cursive;
+            font-size: 18px;
+            color: #222527;
+        }
+
+        .quote:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="font-family: 'Sacramento', cursive;"> Livros pelas Frases </h1>
+        <p style="font-family: 'Comic Sans MS', cursive; font-size: 18px; color: #222527;">"A leitura é uma conversa entre o autor e o leitor." - Paulo Freire </p>
+    </header>
+    
+    <section id="buttons">
+        <div class="button-container">
+            <button onclick="location.href='index.html'">Fotos</button>
+            <button onclick="location.href='index3.html'">Sobre Mim</button>
+        </div>
+    </section>
+
+    <main>
+        <section id="quotes">
+            <h2>Frases de Livros</h2>
+
+            <div class="quote-container">
+                <div class="quote">
+                    <p>"A leitura é uma fonte inesgotável de prazer, mas por incrível que pareça, a quase totalidade, não sente esta sede." - Carlos Drummond de Andrade</p>
+                </div>
+                <div class="quote">
+                    <p>"Um livro é um brinquedo feito com letras. Ler é brincar." - Rubem Alves</p>
+                </div>
+                <div class="quote">
+                    <p>"Um livro aberto é um cérebro que fala; fechado, um amigo que espera; esquecido, uma alma que perdoa; destruído, um coração que chora." - Provérbio Indiano</p>
+                </div>
+                <!-- Adicione mais blocos de citações conforme necessário -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Seu Nome</p>
+    </footer>
+</body>
+</html>
